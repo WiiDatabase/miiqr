@@ -1,1 +1,68 @@
-success!
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <title>editMii</title>
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<main class="container">
+		<h1 class="page-header">
+			editMii 
+			<a href="about.html"><button class="pull-right btn btn-primary"><i class="glyphicon glyphicon-info-sign"></i></button></a>
+		</h1>
+        
+        <button type="button" id="impQRC" class="btn btn-lg btn-primary">
+            <i class="glyphicon glyphicon-upload"></i> Import from QR code</span>
+        </button>
+        
+        <button type="button" id="expENC" class="btn btn-lg btn-primary">
+            <i class="glyphicon glyphicon-download"></i> Export to encrypted BIN</span>
+        </button>
+        
+        <hr />
+        <h3>Credits</h3>
+        <ul>
+            <li>This website: <a href="https://github.com/zoogie/web" target="_blank">zoogie</a>.</li>
+            <li>Editor development: <a href="mailto:webmaster@goombi.fr" target="_blank">Goombi</a>.</li>
+            <li><i class="fa fa-fw fa-cogs"></i>CRC16 fix code: <a href="https://marcan.st/" target="_blank">marcan</a>.</li>
+            <li><i class="fa fa-fw fa-qrcode"></i>QR Code decoder: <a href="http://lazarsoft.info/" target="_blank">Lazar</a>,
+                adapted from the <a href="https://github.com/zxing/zxing" target="_blank">ZXing</a> project. Google charts API for
+                the QR Code encoder.</li>
+            <li><i class="fa fa-fw fa-flask"></i>Research: Goombi and all the contributors
+                to <a href="https://3dbrew.org/wiki/Mii_Maker" target="_blank">3dbrew.org</a>
+                and <a href="http://wiibrew.org/wiki/Mii_Data" target="_blank">wiibrew.org</a></li>
+            <li><i class="fa fa-fw fa-child"></i>Other thanks: <a href="https://gbatemp.net/threads/release-ntr-cfw-3-2-with-experimental-real-time-save-feature.385142/" target="_blank">NTR</a> for being an incredibly useful tool !</li>
+        </ul>
+	</main>
+
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/jsqrcode/grid.js"></script>
+	<script src="assets/vendor/jsqrcode/version.js"></script>
+	<script src="assets/vendor/jsqrcode/detector.js"></script>
+	<script src="assets/vendor/jsqrcode/formatinf.js"></script>
+	<script src="assets/vendor/jsqrcode/errorlevel.js"></script>
+	<script src="assets/vendor/jsqrcode/bitmat.js"></script>
+	<script src="assets/vendor/jsqrcode/datablock.js"></script>
+	<script src="assets/vendor/jsqrcode/bmparser.js"></script>
+	<script src="assets/vendor/jsqrcode/datamask.js"></script>
+	<script src="assets/vendor/jsqrcode/rsdecoder.js"></script>
+	<script src="assets/vendor/jsqrcode/gf256poly.js"></script>
+	<script src="assets/vendor/jsqrcode/gf256.js"></script>
+	<script src="assets/vendor/jsqrcode/decoder.js"></script>
+	<script src="assets/vendor/jsqrcode/qrcode.js"></script>
+	<script src="assets/vendor/jsqrcode/findpat.js"></script>
+	<script src="assets/vendor/jsqrcode/alignpat.js"></script>
+	<script src="assets/vendor/jsqrcode/databr.js"></script>
+	<script src="assets/js/sjcl.js"></script>
+	<script src="assets/js/fman.js"></script>
+	<script src="assets/js/mii.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
