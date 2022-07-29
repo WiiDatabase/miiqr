@@ -3,7 +3,7 @@ var Fman = function() {};
 Fman.downloadArray = function(data, filename) {
     // Download file
     if (data === undefined) {
-        window.alert("Please i a file first");
+        window.alert("Please select a file first");
         return;
     }
     tmpA = document.createElement("a");
